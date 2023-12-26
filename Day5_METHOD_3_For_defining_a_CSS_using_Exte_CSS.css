@@ -1,0 +1,20 @@
+h1
+           { 
+            color: rgb(15, 146, 193);
+            background-color: rgb(247, 77, 16);
+            }  
+p
+       {
+           color: red;     /* named Color */
+           background-color: rgb(255, 255, 0);
+                    /* RGB Color */
+         }
+
+ button
+
+         {
+            color: rgb(95, 13, 217) ;
+            background-color: #FFFFFFFF;
+                        /* HEX CODE Color */
+            text-align: ;
+         }
