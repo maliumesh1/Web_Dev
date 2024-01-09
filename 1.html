@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Partition</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <br>
+    <br>
+    <button onclick="undo()">Undo</button>
+    <button onclick="redo()">Redo</button>
+
+  <div class="container">
+    <div class="left-side">
+      <h2>Left Side Fields</h2>
+      <label for="input-text">Enter Text:</label>
+      <input type="text" id="input-text" placeholder="Type something..." oninput="updateText()">
+    
+    </div>
+
+
+    <div class="right-side">
+      <h2>Right Side Fields</h2>
+      <label for="font-family-input">Font Family:</label>
+            <select id="font-family-input" onchange="updateText()">
+                <option value="Arial, sans-serif">Arial, sans-serif</option>
+                <option value="Times New Roman, serif">Times New Roman, serif</option>
+                <option value="Courier New, monospace">Courier New, monospace</option>
+                <option value="Helvetica, sans-serif">Helvetica, sans-serif</option>
+                <option value="Georgia, serif">Georgia, serif</option>
+                <option value="Palatino, serif">Palatino, serif</option>
+                <option value="Verdana, sans-serif">Verdana, sans-serif</option>
+                <option value="Garamond, serif">Garamond, serif</option>
+                <option value="Comic Sans MS, cursive">Comic Sans MS, cursive</option>
+                <option value="Trebuchet MS, sans-serif">Trebuchet MS, sans-serif</option>
+                <option value="Arial Black, sans-serif">Arial Black, sans-serif</option>
+                <option value="Impact, sans-serif">Impact, sans-serif</option>
+                <option value="Lucida Sans Unicode, sans-serif">Lucida Sans Unicode, sans-serif</option>
+                <option value="Tahoma, sans-serif">Tahoma, sans-serif</option>
+                <option value="Courier, monospace">Courier, monospace</option>
+                    
+             
+                  
+                <!-- Add more font options as needed -->
+            </select>
+            <br>
+            
+      <label for="font-size-input">Font Size:</label>
+            <input type="number" id="font-size-input" placeholder="Enter font size" oninput="updateText()">
+  
+      <label for="color-input">Text Color:</label>
+            <input type="color" id="color-input" value="#000000" onchange="updateText()">
+
+            
+
+             </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+    text-align: end;
+    border:solid;
+    width: 110%;
+    text-decoration: red overline;
+}
+p{
+    line-height: 2;
+    font-weight: bold;
+    letter-spacing: 3px; /* --horizontal alignment */
+    font size: 30px;
+    font family: impact-bold;"
+}
+h2{
+    /* */
+    font-weight: 700; /*font bold style-->*/
+    text-decoration:rgb(161, 9, 9) underline;
+    text-decoration: red overline;
+
+}
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text Editor</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+      <textarea placeholder="Enter your text here"></textarea>
+      <button id="undo">Undo</button>
+      <button id="redo">Redo</button>
+    </div>
+    <div class="right-side">
+      <div class="output-container">
+        <p id="output-text"></p>
+      </div>
+      <div class="controls">
+        <label for="font-family">Font:</label>
+        <select id="font-family">
+          </select>
+        <label for="font-size">Size:</label>
+        <select id="font-size">
+          </select>
+        <label for="color">Color:</label>
+        <input type="color" id="color">
+      </div>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>

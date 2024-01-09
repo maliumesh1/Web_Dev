@@ -1,0 +1,13 @@
+div{
+    width: 900;
+    height: 2000px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 2px 3px 2px red;
+
+    background-image: url("lc2023.png");
+    background-size: cover;
+    color: white;
+}

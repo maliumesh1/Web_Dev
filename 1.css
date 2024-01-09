@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #output-container {
+    width: 50%;
+    margin-top: 20px;
+    text-align: left;
+    background-color: aqua;
+}
+
+#output-text {
+    margin-top: 20px;
+    text-align: left;
+    
+}
+  .left-side,
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    color: red;
+  }
+  
+  .left-side {
+    background-color: #10a82c;
+  }
+  
+  .right-side {
+    background-color: #22c9d8;
+  }
+  

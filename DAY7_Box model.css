@@ -1,0 +1,53 @@
+div{
+
+    height: 22 px;
+    width: 100px;
+
+    background-color: rgb(131, 131, 137);
+    color: black;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(219, 193, 27);
+
+
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-right: 55px;
+    padding-bottom: 55px;
+
+    margin-bottom: 20px;
+    margin-top: 33px;
+
+    /* I love ❤️❤️❤️❤️❤️❤️This Boundry 
+
+    background-color: aquamarine;
+    border-radius: 99px;
+    border:25% 10%;
+    border-radius: 10% 30% 50% 70%;
+    border-radius: 10% / 50%;
+    border-radius: 10px 100px/120px;
+    border-radius: 10% / 50%/10% 40%;
+    */
+
+
+    border: 2px solid black;
+    height: 23px;
+    width: 200px;
+    padding: 30px;
+    margin: 22px;
+}
+
+}
+
+h1 {
+
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(4, 33, 33);
+    border-right: 3px solid rgba(red, green, blue, 0.5);
+    border-radius: 50px;
+}
+
+span{}
+   

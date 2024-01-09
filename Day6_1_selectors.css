@@ -1,0 +1,95 @@
+
+
+         /*Universal Selector */
+*{
+    font-family: 'Courier New';
+    font-weight: 600;
+    background-color: white;
+}
+
+         /*Element Selector */
+h1 {        
+    color: #b92b27;
+    
+  }
+
+
+
+  /*ID Selector */
+#login{                 
+    background-color: rgb(176, 76, 76);
+}
+
+#signup{
+    background-color: rgb(194, 10, 10);
+
+}
+    
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+        /*Descendant Selector */
+.post a {
+    color: purple;
+    background-color: yellow
+}
+nav ul li a{
+    color: hotpink;
+}
+
+/*Sibling Combinator */
+p+h3{
+    text-decoration: underline;
+}
+/*Sibling Combinator */
+.upvote + button
+ {
+    background-color: cornflowerblue;
+    color: darkblue;
+ }
+
+
+ /*Child Combinator */
+ div>input
+ {
+    background-color: darksalmon;
+ }
+
+ input[type="text"]
+ {
+    color: red;
+ }
+
+
+/* Attribute Selector */
+ input[type="password"]
+ {
+    color: green;
+ }
+
+button:hover
+{
+    background-color: black;
+    color: pink;
+}
+
+
+/*Psudo Classes */
+h3:hover
+{
+    text-decoration:overline;
+}
+button:active{
+    background-color: darkpink;
+}
+
+
+
+/*Psudo Elements */
+h1::first-letter{
+    color:orangered;
+}
+p::first-line{
+    color: blueviolet;
+}
